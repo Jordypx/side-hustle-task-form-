@@ -60,3 +60,16 @@
     display: block;
   }
   
+@media only screen and (max-width: 420px) {
+    . container {
+       margin-top: 0;
+ }
+}
+
+
+
+
+
+
+
+
