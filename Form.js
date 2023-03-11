@@ -13,8 +13,6 @@ successMessage.style.color = 'green';
 errorMessage.textContent = 'Please enter a valid email address.';
 errorMessage.style.color = 'red';
 
-form.appendChild(errorMessage);
-
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
